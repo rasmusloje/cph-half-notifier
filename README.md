@@ -2,6 +2,8 @@
 
 This .NET 8 C# console application is a practical project developed to address a personal need for securing a ticket on the CPH Half Marathon resale platform. The program implements a naive polling approach, which involves scraping the website at a fixed interval to check the availability of tickets. Upon detecting an available ticket, the application sends a notification via Telegram, ensuring that the user is promptly informed and can proceed to purchase the ticket.
 
+This is only possible as the resale platform is a public page without any user confirmation (eg. no captcha's or bearer tokens required) upon making requests to the page.
+
 <p align="center">
   <img src="https://github.com/user-attachments/assets/cf400383-7d70-4f61-8776-26c97a8ae089" alt="notification" width="45%" />
   <img src="https://github.com/user-attachments/assets/0d1789b9-a60a-4731-8186-8c1b9e90d8ce" alt="chat" width="45%" />
