@@ -1,0 +1,11 @@
+# Rider
+.idea/
+
+# VS
+.vs/
+*.user
+
+# .NET
+# Build directories
+[Bb]in/
+[Oo]bj/
