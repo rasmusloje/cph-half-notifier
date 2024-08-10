@@ -1,13 +1,17 @@
 # CPH Half Ticket Notifier
 
-## Overview
-
 This .NET 8 C# console application is a practical project developed to address a personal need for securing a ticket on the CPH Half Marathon resale platform. The program implements a naive polling approach, which involves scraping the website at a fixed interval to check the availability of tickets. Upon detecting an available ticket, the application sends a notification via Telegram, ensuring that the user is promptly informed and can proceed to purchase the ticket.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/cf400383-7d70-4f61-8776-26c97a8ae089" alt="notification" width="45%" />
+  <img src="https://github.com/user-attachments/assets/0d1789b9-a60a-4731-8186-8c1b9e90d8ce" alt="chat" width="45%" />
+</p>
 
 ## Features
 
 - **Naive Polling Mechanism**: The application scrapes the [CPH Half Marathon resale platform](https://secure.onreg.com/onreg2/bibexchange/?eventid=6277) at regular intervals to monitor ticket availability.
 - **Telegram Notifications**: Upon detecting an available ticket, the application sends an immediate notification to the user's Telegram account, including a direct link to the resale platform. This allows the user to act quickly and secure the ticket.
+
 - **Console-Based Interface**: Simple and lightweight console-based application, easy to run and monitor.
 - **Customizable Polling Interval**: The polling interval can be adjusted according to the user's preferences, balancing the frequency of checks with resource consumption.
 
@@ -62,6 +66,6 @@ Contributions to this project are welcome. Please fork the repository and submit
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/rasmusloje/cph-half-notifier/blob/main/license.txt) file for more details.
 
 ---
